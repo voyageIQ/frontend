@@ -1,12 +1,12 @@
 "use client";
 
 import { useState } from "react";
+import auth from "@/components/auth_card";
 
 export default function AuthPage() {
     return (
-        <main className="div 0">
-            <div className="">
-            </div>
-        </main>
+        <div className="auth-page">
+            <auth />
+        </div>
     );
 }

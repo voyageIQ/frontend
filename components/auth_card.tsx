@@ -1,6 +1,6 @@
-import Image from "next/image";
+"use client";
 
-export default function auth_card() {
+export default function auth() {
     const card_type = {
         login: "Login",
         signup: "Sign Up",
